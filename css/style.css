@@ -1,0 +1,107 @@
+.navbar{
+	min-height:40px  !important;
+	margin-bottom:0px;
+	font-family:Exo !important;
+}
+.navbar-default{
+	border-color:#c0392b;
+	background-color:#e74c3c;
+	color:white;
+}
+.navbar-default .navbar-brand ,.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+.navbar-default .navbar-toggle .icon.bar{
+	background-color:#ecf0f1;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbr-toggle:focus{
+	background-color:#ecf0f1;
+}
+.navbar-default .navbar-nav>li.active a{
+	color:white;
+	background-color:#c2382a;
+	}
+.navbar-default .navbar-nav li a{
+	letter-spacing:1.2px;
+	font-size:16px;
+}
+.navbar-default .navbar-nav>li.active a:hover,.navbar-default .navbar-nav>li.active a:focus,.navbar-default .navbar-nav  li a:hover{
+	background-color:#c2382a;
+	color:white;
+	//border-left:1px solid white;
+}
+.navbar-brand ,.navbar-nav li a {
+	text-transform:capitalize;
+	padding:10px 15px;
+	height:40px;
+	color:white;
+}
+.navbar-nav{
+	text-transform:capitalize;
+}
+/* Start Header */
+header{
+	padding-top:45px;
+	text-transform:capitalize;
+	background-color:#333;
+	color:white;
+	margin-bottom:15px;
+}
+header div.dropdown {
+	padding-top:20px;
+	text-transform:capitalize;
+}
+header div.dropdown ul li a,#main div.dropdown button{
+	text-transform:capitalize;
+}
+/* End Header */
+
+/* Start Breadcrumb */
+.breadcrumb{
+	background-color:#eee;
+	
+}
+.breadcrumb li{
+	text-decoration:none;
+	
+	text-transform:capitalize;
+}
+/* End Breadcrumb */
+/* Start Section Main */
+#main{
+	text-transform:capitalize;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+	background-color:#c2382a;
+	border:#c0392b;
+}
+
+/* End list-group */
+/* Start div Panel */
+.main-color{
+	background-color:#e74c3c !important;
+	color:white;
+}
+.panel-title{
+	color:white !important;
+	 letter-spacing:1.3px;
+	 font-weight:lighter;
+
+
+}
+.middle-box{
+	text-align:center;
+}
+/* End div Panel */
+
+footer{
+	text-align:center;
+	padding:20px 0px;
+	background-color:#333;
+	color:white;
+	text-transform:capitalize;
+	font-size:17px;
+	letter-spacing:1.3px;
+	margin-top:20px;
+}
